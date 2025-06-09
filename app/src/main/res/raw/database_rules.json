@@ -1,0 +1,34 @@
+{
+  "rules": {
+    "users": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["user_email", "user_aadhar"]
+    },
+    "reports": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["user_report_aadhaar", "user_report_parent_aadhaar"]
+    },
+    "appointments": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["user_aadhaar_appointment"]
+    },
+    "own_receipts": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["user_receipt_aadhaar"]
+    },
+    "parental_receipts": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["parent_aadhaar"]
+    },
+    "bookings": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["booking_aadhaar"]
+    }
+  }
+}

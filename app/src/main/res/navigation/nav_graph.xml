@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/chatFragment">
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.hasnain.HealthMateApplication.fragments.ChatFragment"
+        android:label="Health Chatbot">
+        <action
+            android:id="@+id/action_chatFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.hasnain.HealthMateApplication.fragments.ChatAboutFragment"
+        android:label="About" />
+</navigation>
