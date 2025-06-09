@@ -1,59 +1,131 @@
-<h2 align="center"><u>Ez Health Android App</u></h2>
 
-![Android App to Make your manage your Health Easy](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTDX0PowhxdQu8dfB_YgtUqDK6lFV2YveobQ&s)
-<h4 align="center"> Android App to Make your manage your Health Easy </h4>
+<h2 align="center"><u>HealthMate Android App</u></h2>
+
+![Android App to Manage Your Health](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTDX0PowhxdQu8dfB_YgtUqDK6lFV2YveobQ&s)
+<h4 align="center">A Smart Android App to Make Managing Your Health Easier and Smarter</h4>
 
 <p align="center">
-    <img src="https://img.shields.io/github/stars/MTalhaofc/Ez-Health-Android-App?style=for-the-badge&color=orange">
-    <img src="https://img.shields.io/github/forks/MTalhaofc/Ez-Health-Android-App?style=for-the-badge&color=purple">
-    <img src="https://img.shields.io/github/license/MTalhaofc/Ez-Health-Android-App?style=for-the-badge&color=blue">
-    <img src="https://img.shields.io/github/issues/MTalhaofc/Ez-Health-Android-App?style=for-the-badge&color=red">
-    <img src="https://img.shields.io/github/contributors/MTalhaofc/Ez-Health-Android-App?style=for-the-badge&color=cyan">
+    <img src="https://img.shields.io/github/stars/panwar-harsh/HealthMate?style=for-the-badge&color=orange">
+    <img src="https://img.shields.io/github/forks/panwar-harsh/HealthMate?style=for-the-badge&color=purple">
+    <img src="https://img.shields.io/github/license/panwar-harsh/HealthMate?style=for-the-badge&color=blue">
+    <img src="https://img.shields.io/github/issues/panwar-harsh/HealthMate?style=for-the-badge&color=red">
+    <img src="https://img.shields.io/github/contributors/panwar-harsh/HealthMate?style=for-the-badge&color=cyan">
 <br>
-    <img src="https://img.shields.io/badge/Author-Muhammad Talha & Muhammad Mahad-magenta?style=flat-square">
+    <img src="https://img.shields.io/badge/Author-Harsh%20Panwar-magenta?style=flat-square">
     <img src="https://img.shields.io/badge/Open%20Source-No-orange?style=flat-square">
     <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
-    <img src="https://img.shields.io/badge/Made%20In-Pakistan-green?style=flat-square">
-    <img src="https://img.shields.io/badge/Written%20In-Kotlin, XML-blue?style=flat-square">
-<br>
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MTalhaofc&repo=Ez-Health-Android-App&theme=synthwave">
+    <img src="https://img.shields.io/badge/Made%20In-India-green?style=flat-square">
+    <img src="https://img.shields.io/badge/Written%20In-Kotlin,%20XML-blue?style=flat-square">
 </p>
 
-### [+] Description
-🌟 EzHealth: Your Ultimate Health Companion! 🌡️📋
+---
 
-Take charge of your wellness with EzHealth, a cutting-edge app designed to make managing your health easier and smarter! From tracking medical records 🗂️ to booking doctor appointments 🩺📅 and exploring a variety of diagnostic tests 🔬, EzHealth is your all-in-one solution.
+## 📝 Description
 
-Key Features That Empower You:
-🔍 Smart Medical Reports Management:
+🌟 **HealthMate: Your Ultimate Health Companion!**  
+Take charge of your wellness with **HealthMate**, the app that simplifies and empowers your healthcare journey!  
+Track medical records 🗂️, consult with doctors virtually 🩺, explore curated health content 📚, and get personalized diet + fitness plans—all in one seamless mobile experience.
 
-Store and organize all your medical reports digitally for quick and easy access.
+---
 
-Get AI-generated summaries 🤖📄 to simplify complex medical data, helping you understand your health better at a glance.
+## 🔑 Key Features
+
+- **📁 Medical Reports**: Digitally store and access your health documents
+- **📄 AI Summaries**: Quickly understand complex medical data
+- **🧠 Health Chatbot**: Get instant 24/7 health guidance with smart AI
+- **🥗 Nutrition Planner**: AI-powered diet plans based on your BMI and health goals
+- **📏 BMI & Wellness Calculator**: Monitor your body stats and get tips
+- **📅 Appointment Booking**: Book doctor visits with just a few taps
+- **🚨 Emergency Assistance**: Call emergency services instantly
+- **📚 Health Insights**: Stay informed with trending health articles
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+Ensure the following tools are installed on your machine:
+
+- Android Studio (Electric Eel or newer)
+- JDK 11 or higher
+- Git
+- Internet connection for downloading dependencies and accessing APIs
+
+---
+
+### 📁 Clone the Repository
+
+```bash
+git clone https://github.com/panwar-harsh/HealthMate.git
+cd HealthMate
+```
+
+---
+
+### 📂 Open in Android Studio
+
+1. Open Android Studio
+2. Click **File > Open**
+3. Navigate to the `HealthMate` folder you cloned
+4. Select the root folder and click **OK**
+5. Wait for Gradle to finish syncing and indexing
+
+---
+
+### 🔧 Firebase Setup (If Required)
+
+If the app uses Firebase services like Authentication or Firestore:
+
+1. Go to [Firebase Console](https://console.firebase.google.com/)
+2. Create a new Firebase project or use an existing one
+3. Add an Android app using your app's package name
+4. Download the `google-services.json` file
+5. Place the file inside the `app/` directory:
+
+```
+HealthMate/app/google-services.json
+```
+
+6. Sync Gradle to apply changes
+
+---
+
+### ▶️ Run the App
+
+1. Connect an Android device or open an emulator
+2. Click the **Run ▶️** button or use **Shift + F10**
+3. The app will compile and install on your device
+
+---
+
+### 💡 First-Time Setup Tips
+
+- If Gradle sync fails, go to **File > Sync Project with Gradle Files**
+- Use **Build > Clean Project** and then **Build > Rebuild Project** if issues occur
+- Make sure all required JSON/API keys are correctly added
+
+---
+
+### 🔁 Keeping Your Local Copy Updated
+
+To sync your fork or clone with the original repository:
+
+```bash
+git remote add upstream https://github.com/panwar-harsh/HealthMate.git
+git fetch upstream
+git merge upstream/main
+```
+
+---
+
+## 👨‍💻 Author
+
+**Harsh Panwar**  
+Feel free to reach out via GitHub or connect for collaboration or feedback.
 
 
-📚 Health Insights:
+## 🙌 Support
 
-Stay updated with informative health articles 📰 on fitness, wellness, and medical breakthroughs.
-
-Enhanced with AI-Powered Tools:
-🤖 Interactive Health Chatbot:
-Have health questions or need guidance? Our AI-integrated chatbot is here to assist you 24/7! Whether it’s tips on managing stress, understanding symptoms, or finding the nearest medical facility, you’ll get instant, reliable answers.
-
-🥗 Nutrition Model – Your Personalized Diet Planner:
-Achieve your fitness goals with a week-wise diet plan tailored just for you! Based on your BMI, age, fitness goals, and other key inputs, this intelligent model will recommend balanced meals and nutritional guidance to help you maintain optimal health.
-
-⚖️ BMI & Wellness Calculator:
-Monitor your health status with our BMI calculator 📏⚖️ and receive actionable suggestions to improve your wellness.
-
-🍳 Customized Meal and Fitness Schedule:
-Fuel your body the right way! Input your desired protein, calorie, and fat intake, and the app will generate a personalized meal and workout schedule designed to match your lifestyle and goals.
-
-🚨 Emergency Assistance:
-In critical moments, access emergency services instantly 🚨📞 with one tap to stay safe and prepared.
-
-💪 Smarter, Healthier Living Awaits You!
-With EzHealth, you’re not just tracking your health—you’re actively improving it. Simplify your health journey, stay informed, and achieve your wellness goals like never before! 🌟
-
-Download EzHealth today and take the first step toward a healthier, happier life! 📲
+If you find this project useful, don't forget to ⭐ the repo and share it with others!
 
